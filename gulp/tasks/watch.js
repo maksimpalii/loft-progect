@@ -9,6 +9,7 @@ module.exports = function() {
     $.gulp.watch('./source/sprite/**/*.*', $.gulp.series('sprite:png'));
     $.gulp.watch('./source/sprite/**/*.*', $.gulp.series('sprite:gif'));
     $.gulp.watch('./source/images/**/*.*', $.gulp.series('copy:image'));
+    $.gulp.watch('./source/sprite/**/*.*', $.gulp.series('copy:svg'));
     $.gulp.watch('./source/fonts/**/*.*', $.gulp.series('copy:font'));
   });
 };

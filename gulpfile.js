@@ -11,7 +11,9 @@ global.$ = {
   },
   gulp: require('gulp'),
   del: require('del'),
+  csso: require('gulp-csso'),
   spritesmith: require('gulp.spritesmith'),
+  svgSprite: require("gulp-svg-sprites"),
   browserSync: require('browser-sync').create(),
   gp: require('gulp-load-plugins')()
 };
@@ -28,6 +30,7 @@ $.gulp.task('default', $.gulp.series(
     'js:foundation',
     'js:process',
     'copy:image',
+    //'copy:svg',
     'copy:font',
     'css:foundation',
     'sprite:svg',

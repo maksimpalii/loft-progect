@@ -25,3 +25,144 @@
 .greating_picture.m--show {
   transform: translate3D(0, 0, 0);
 }
+
+.wellcome {
+  width: 100%;
+  height: 100%;
+  background: url('/assets/img/back_main.jpg') no-repeat;
+  background-size: cover;
+  display: block;
+  position: absolute;
+}
+
+.button.autoriz {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Roboto-Medium';
+  font-size: 16px;
+  width: 178px;
+  text-align: center;
+  height: 23px;
+  padding: 10px 0px;
+  position: absolute;
+  right: 0;
+  margin: 24px 100px 0 0;
+  cursor: pointer;
+}
+
+.button.autoriz:hover {
+  background: #083c96;
+  border: 1px solid #083c96;
+}
+
+.info-block {
+}
+
+.in-blocks {
+  width: 380px;
+  height: 395px;
+  background: rgba(28, 31, 41, 0.5);
+  margin: 12% auto 0 auto;
+  position: relative;
+}
+
+.in-blocks span {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+  opacity: 0.8;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+p.name {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto-Medium';
+  margin: 20px 0 10px 0;
+  font-size: 28px;
+}
+
+.menu-my {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.social-button {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.social-button a {
+  margin: 0 15px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+.social-button a img {
+  padding: 0;
+  margin: 0;
+}
+
+.social-button .in:hover::before {
+  background-position: 0em -282.6em;
+}
+
+.social-button .github:hover::before {
+  background-position: 0em -269.59em;
+}
+
+.social-button .vk:hover::before {
+  background-position: 0em -467.7em;
+}
+
+.social-button .icon.in:before {
+  margin-top: -5px;
+}
+
+.menu-my li {
+  list-style: none;
+  color: #fff;
+  display: table-cell;
+  text-align: center;
+  background: #004cd1;
+  font-family: 'Roboto-Medium';
+  cursor: pointer;
+  padding: 13px 0;
+  font-size: 16px;
+  width: 178px;
+}
+
+.menu-my li:nth-child(2) {
+  border-left: solid 2px rgba(222, 227, 231, 0.50);
+  border-right: solid 2px rgba(222, 227, 231, 0.50);
+}
+
+.menu-my li:hover {
+  background: rgba(4, 62, 163, 0.85);
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto-Light';
+  font-size: 16px;
+}
+
+.copyright.page-wellcome {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}
+
+.in-blocks img {
+  margin: 0px auto 0 auto;
+  position: relative;
+  display: block;
+  padding-top: 40px;
+}
